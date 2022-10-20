@@ -3,7 +3,7 @@ import { Children, Child2 } from './Children'
 const Parent = () => {
   return (
     <div>
-      <Children/>
+      <Children color='#000' onClick={()=>console.log("clikked")} name="Ulugbek" age={21}/>
       <Child2/> 
     </div>
   )
